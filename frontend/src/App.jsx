@@ -14,6 +14,7 @@ import Login from "./componets/login"
 import Order from "./componets/order"
 import Admin_function from "./componets/admin"
 import Admin_dashboard from "./componets/admin-dashboard"
+import ForoFor from "./componets/404"
 function Home(){
   return(
     <>
@@ -76,6 +77,7 @@ function Home(){
   </>
 }/>
 
+<Route path="*" element={<ForoFor/>}/>
 
     </Routes>
 

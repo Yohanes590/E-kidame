@@ -1,8 +1,4 @@
 import '../styles/products.css'
-import sute from '../assets/product/sute.webp'
-import sute2 from '../assets/product/sute2.webp'
-import sute3 from '../assets/product/sute3.avif'
-import sute4 from '../assets/product/sute4.jpg'
 import { orderPlace } from './order.place'
 import { ToastContainer } from 'react-toastify'
 import { clintSide_Product ,searchProducts} from './fetching-product'
