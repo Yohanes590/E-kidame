@@ -1,0 +1,37 @@
+{
+    "rewrites": [
+      {
+        "source": "/about",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/products",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/sign-up",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/login",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/order",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/admin-control",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/admin-dashboard",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/:path*",
+        "destination": "/index.html"
+      }
+    ]
+  }
+  
