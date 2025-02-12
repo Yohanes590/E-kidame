@@ -40,7 +40,7 @@ return(<>
 
             <div className="alluserdata">
 
-                <h2> <span>80</span> Users On WebSite </h2>
+                <h2> <span id='userCounter'></span> Users On WebSite </h2>
 
                         <div className="table">
 
@@ -74,7 +74,7 @@ return(<>
 
 <div className="order-catch">
 
-<h2>Order Catch <span>10</span></h2>
+<h2>Order Catch <span id='order-counter'></span></h2>
 
 
 <table>

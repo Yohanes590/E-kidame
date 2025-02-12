@@ -9,6 +9,7 @@ export const countUsers = async()=>{
         },
     })
     const usersResult = await countingInfo.json()
+    document.getElementById("userCounter").innerText=`${usersResult.length}`
     usersResult.forEach(userElement =>{
         const td = document.createElement("tr")
         td.innerHTML =`
@@ -58,6 +59,7 @@ export const countOrder = async()=>{
         }
     })
     const changeResultToJson = await orderResult.json()
+    document.getElementById("order-counter").innerText=`${changeResultToJson.length}`
     changeResultToJson.forEach(indexElement=>{
         const tableElement = document.createElement('tr')
         tableElement.innerHTML=`
