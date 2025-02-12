@@ -1,0 +1,218 @@
+.login-box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box .box {
+    text-align: center;
+    width: 300px;
+    height: auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 255, 0.493);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-box .box input {
+    width: 250px;
+    padding-left: 20px;
+    height: 35px;
+    margin-top: 10px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+
+.login-box .box button {
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.dashboard-nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(1, 0, 80);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.admin-card-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+.admin-card-section .alluserdata {
+    width: auto;
+    height: 300px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    overflow: scroll;
+}
+
+
+.admin-card-section .alluserdata table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.admin-card-section .alluserdata table tr {
+    text-align: center;
+}
+
+.admin-card-section .alluserdata table tr td {
+    border-bottom: 2px solid rgb(0, 0, 51);
+}
+
+.admin-card-section .alluserdata table th {
+    background-color: rgb(0, 0, 51);
+    color: white;
+}
+
+.admin-card-section .order-catch {
+    width: 800px;
+    height: 300px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    overflow: scroll;
+}
+
+.admin-card-section .order-catch table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.admin-card-section .order-catch table th {
+    background-color: rgb(0, 0, 51);
+    color: white;
+}
+
+.admin-card-section .order-catch table td {
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 0, 51);
+}
+
+.admin-card-section .up-load-product {
+    width: 80%;
+    height: 400px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+    overflow: scroll;
+    padding-left: 20px;
+    padding-top: 40px
+}
+
+.admin-card-section .up-load-product input {
+    width: 80%;
+    height: 35px;
+    outline: none;
+    margin-top: 30px;
+    border-bottom: 2px solid blue;
+    padding-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.admin-card-section .up-load-product textarea {
+    margin-top: 35px;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 80%;
+    height: 200px;
+    outline: none;
+    border: 2px solid blue
+}
+
+.admin-card-section .up-load-product label {
+    width: 83%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.admin-card-section .up-load-product button {
+    width: 83%;
+    height: 35px;
+}
+
+
+#photo-file {
+    display: none;
+}
+
+.product-details {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.product-details .each-product {
+    width: 400px;
+    height: auto;
+    box-shadow: 0px 0px 10px rgb(204, 204, 204);
+    text-align: center;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.product-details .each-product img {
+    width: 100%;
+}
+
+.product-details .each-product button {
+    width: 200px;
+    height: 30px;
+}
+
+
+@media (max-width:1457px) {
+    .admin-card-section .order-catch {
+        margin-top: 40px;
+        width: 95%;
+    }
+
+    .admin-card-section .alluserdata {
+        width: 95%;
+    }
+}
+
+@media (max-width:1457px) {
+    .product-details {
+        margin-top: 500px;
+    }
+}
+
+.logout {
+    margin-top: 40px;
+}
+
+.logout button {
+    width: 200px;
+    height: 40px;
+}

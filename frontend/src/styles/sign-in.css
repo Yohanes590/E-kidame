@@ -1,0 +1,56 @@
+.sign-in {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in .flex-sect {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    border: 2px solid var(--bronze);
+    height: 70%;
+    background-color: rgb(250, 247, 243);
+    text-align: center;
+}
+
+.sign-in input {
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    padding-left: 20px;
+    outline: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid var(--vavavoom);
+    background-color: transparent;
+}
+
+.sign-in input:focus {
+    border-bottom-color: red;
+}
+
+.sign-in input::placeholder {
+    color: black;
+}
+
+.sign-in button {
+    margin-top: 10px;
+    width: 320px;
+    height: 35px;
+    background: var(--vavavoom);
+    border: 2px solid var(--vavavoom);
+    color: white;
+    cursor: pointer;
+}
+
+.sign-in button:hover {
+    background: red;
+    border: 2px solid red;
+}

@@ -1,0 +1,36 @@
+.delivery {
+    margin-top: 0px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.delivery .del-text {
+    width: 550px;
+    opacity: 0;
+    margin-left: -150px;
+    transition: 1s;
+}
+
+.delivery .del-image {
+    margin-right: -150px;
+    opacity: 0;
+    transition: 1;
+}
+
+.delivery .del-image img {
+    width: 400px;
+}
+
+@media (max-width:409px) {
+    .delivery {
+        scale: 0.9;
+    }
+
+    .delivery .del-image img {
+        width: 300px;
+        margin-top: 25px;
+    }
+}

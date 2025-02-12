@@ -1,0 +1,33 @@
+.slider {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider .margin-slider {
+    margin-top: 100px;
+    scale: 0.9;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider .margin-slider .Slider-card {
+    width: 95%;
+    background: var(--vavavoom);
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+    cursor: default;
+}
+
+@media (max-width:1049px) {
+    .slider {
+        display: none;
+    }
+}

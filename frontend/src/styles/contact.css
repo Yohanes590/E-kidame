@@ -1,0 +1,46 @@
+.contact-page {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contact-page .input-contact input {
+    width: 35%;
+    height: 40px;
+    padding-left: 20px;
+    margin-top: 20px;
+    border: 1px solid var(--vavavoom);
+    outline: none;
+    border-radius: 5px;
+}
+
+.contact-page .input-contact textarea {
+    margin-top: 20px;
+    width: 35%;
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+    outline: none;
+    border: 1px solid var(--vavavoom);
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact-page .input-contact button {
+    width: 35%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+@media (max-width:626px) {
+    .contact-page .input-contact input {
+        width: 80%;
+    }
+
+    .contact-page .input-contact textarea {
+        width: 80%;
+    }
+
+    .contact-page .input-contact button {
+        width: 84%;
+    }
+}
